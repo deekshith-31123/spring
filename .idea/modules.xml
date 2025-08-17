@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpringHibernateProject/SpringHibernateProject.iml" filepath="$PROJECT_DIR$/SpringHibernateProject/SpringHibernateProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringJDBCProject/SpringHibernateProject.iml" filepath="$PROJECT_DIR$/SpringJDBCProject/SpringHibernateProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringJDBCProject/SpringJDBCProject.iml" filepath="$PROJECT_DIR$/SpringJDBCProject/SpringJDBCProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring.iml" filepath="$PROJECT_DIR$/.idea/spring.iml" />
     </modules>
