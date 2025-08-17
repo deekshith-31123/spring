@@ -48,7 +48,7 @@ public class StudentDaoImpl implements StudentDao {
         jdbcTemplate.update(sql, id);
     }
 
-    // RowMapper
+
     private static class StudentRowMapper implements RowMapper<Student> {
         @Override
         public Student mapRow(ResultSet rs, int rowNum) throws SQLException {

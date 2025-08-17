@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SpringJDBCProject" />
-        <module name="springwithhibernate" />
         <module name="SpringHibernateProject" />
+        <module name="springwithhibernate (1)" />
+        <module name="springwithhibernate" />
       </profile>
     </annotationProcessing>
   </component>

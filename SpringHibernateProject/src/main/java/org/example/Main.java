@@ -1,17 +1,29 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+import org.example.config.AppConfig;
+import org.example.entity.City;
+import org.example.service.CityService;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        AnnotationConfigApplicationContext context =
+                new AnnotationConfigApplicationContext(AppConfig.class);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        CityService service = context.getBean(CityService.class);
+
+
+        service.addCity(new City("Hyderabad"));
+        service.addCity(new City("Bangalore"));
+
+         System.out.println("Cities in DB:");
+        service.getAllCities().forEach(c -> System.out.println(c.getName()));
+
+         service.deleteCity(1L);
+        System.out.println("After deletion:");
+        service.getAllCities().forEach(c -> System.out.println(c.getName()));
+
+        context.close();
     }
 }
