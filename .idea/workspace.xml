@@ -6,10 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="e36f0f3e-d545-4aab-874b-b6bc012e1627" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringHibernateProject/src/main/java/org/example/repository/CityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringHibernateProject/src/main/java/org/example/repository/CityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringJDBCProject/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringJDBCProject/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringJDBCProject/src/main/java/org/example/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringJDBCProject/src/main/java/org/example/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringJDBCProject/src/main/java/org/example/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringJDBCProject/src/main/java/org/example/service/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/.idea/libraries/postgresql_42_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/.idea/libraries/postgresql_42_7_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/.idea/spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/SpringMVCRestProject/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/SpringMVCRestProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/SpringMVCRestProject/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/SpringMVCRestProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/SpringMVCRestProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/SpringMVCRestProject/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/SpringWithPlainJDBC/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/SpringWithPlainJDBC/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/spring/org/example/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +74,7 @@
     "project.structure.side.proportion": "0.27701148"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="springwithhibernate" />
@@ -93,9 +110,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
