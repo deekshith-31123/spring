@@ -2,8 +2,6 @@ package org.example.service;
 
 import org.example.model.Student;
 import org.example.repository.StudentDao;
-import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 

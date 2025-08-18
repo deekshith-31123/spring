@@ -11,7 +11,6 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import javax.sql.DataSource;
-import java.util.Properties;
 import java.io.IOException;
 
 @Configuration
@@ -24,8 +23,6 @@ public class AppConfig {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.postgresql.Driver");
         dataSource.setUrl("jdbc:postgresql://localhost:5432/patnanasaideekshith");
-//        dataSource.setUsername("postgres");
-//        dataSource.setPassword("password");
         return dataSource;
     }
 
